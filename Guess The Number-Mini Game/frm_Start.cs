@@ -52,7 +52,8 @@ namespace Guess_The_Number_Mini_Game
 
             }
             this.Hide();
- 
+            frm_Play.ShowDialog();
+
         }
 
         private void frm_Start_Load(object sender, EventArgs e)
