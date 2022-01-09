@@ -46,25 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frm_Start.cs">
+    <Compile Include="frm_Start4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_Start.Designer.cs">
-      <DependentUpon>frm_Start.cs</DependentUpon>
+    <Compile Include="frm_Start4.Designer.cs">
+      <DependentUpon>frm_Start4.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_Play.cs">
+    <Compile Include="frm_Play4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_Play.Designer.cs">
-      <DependentUpon>frm_Play.cs</DependentUpon>
+    <Compile Include="frm_Play4.Designer.cs">
+      <DependentUpon>frm_Play4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OneOrTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OneOrTwo.Designer.cs">
+      <DependentUpon>OneOrTwo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frm_Play.resx">
-      <DependentUpon>frm_Play.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Play4.resx">
+      <DependentUpon>frm_Play4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_Start.resx">
-      <DependentUpon>frm_Start.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Start4.resx">
+      <DependentUpon>frm_Start4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OneOrTwo.resx">
+      <DependentUpon>OneOrTwo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

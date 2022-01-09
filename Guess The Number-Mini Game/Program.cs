@@ -16,7 +16,7 @@ namespace Guess_The_Number_Mini_Game
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Start());
+            Application.Run(new frm_Start4());
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Guess_The_Number_Mini_Game
 {
-    partial class frm_Start
+    partial class frm_Start4
     {
         /// <summary>
         /// Required designer variable.
@@ -164,6 +164,7 @@
             this.Name = "frm_Start";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Guess The Number";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frm_Start_FormClosing);
             this.Load += new System.EventHandler(this.frm_Start_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

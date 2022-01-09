@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Guess_The_Number_Mini_Game
 {
-    public partial class frm_Start : Form
+    public partial class frm_Start4 : Form
     {
 
-        public frm_Start()
+        public frm_Start4()
         {
 
             InitializeComponent();
@@ -31,7 +31,7 @@ namespace Guess_The_Number_Mini_Game
 
         private void btnPlay_Click(object sender, EventArgs e)
         {
-            frm_Play frm_Play = new frm_Play();
+            frm_Play4 frm_Play = new frm_Play4();
             {
                 try
                 {
@@ -59,6 +59,11 @@ namespace Guess_The_Number_Mini_Game
         private void frm_Start_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void frm_Start_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

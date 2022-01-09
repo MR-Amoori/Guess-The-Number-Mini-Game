@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Guess_The_Number_Mini_Game
 {
-    public partial class frm_Play : Form
+    public partial class frm_Play4 : Form
     {
         public int Number1
         {
@@ -37,26 +37,32 @@ namespace Guess_The_Number_Mini_Game
             get; set;
         }
 
-        public frm_Play()
+        public frm_Play4()
         {
             InitializeComponent();
         }
-      
+
         public int ConterNum;
         private void frm_Play_Load(object sender, EventArgs e)
         {
-          // this.Text += " ( " + UserName + " )";
+            // this.Text += " ( " + UserName + " )";
             lblConter.Text = Conter.ToString();
             ConterNum = Conter;
         }
 
         private void button1_Click(object sender, EventArgs e)
-             {
+        {
             CheckNumber();
             if (lblResult.Text == "1111")
             {
-                MessageBox.Show("Goooood ♥ ");
-                Application.Exit();
+                if (MessageBox.Show("Goooood ♥ \n Again? ", "Nice !", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    Application.Restart();
+                }
+                else
+                {
+                    Application.Exit();
+                }
             }
             ConterNum--;
             lblConter.Text = ConterNum.ToString();

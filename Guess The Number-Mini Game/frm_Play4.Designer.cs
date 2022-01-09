@@ -1,6 +1,6 @@
 ﻿namespace Guess_The_Number_Mini_Game
 {
-    partial class frm_Play
+    partial class frm_Play4
     {
         /// <summary>
         /// Required designer variable.
